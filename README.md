@@ -3,8 +3,21 @@
 This is a lightweight, local-only Docker setup to run **Nextcloud with PostgreSQL** on a Raspberry Pi using an **external hard drive** for storage.
 
 ---
+## 🌐 What is Nextcloud?
 
-## ✅ Features
+Nextcloud is an open-source platform that provides:
+
+    📁 File sync and sharing (like Dropbox or Google Drive)
+
+    🧑‍🤝‍🧑 User accounts and permissions
+
+    📅 Calendars, Contacts, Notes, and To-Do apps
+
+    🔌 Extendable via community apps (e.g., video calls, document editing)
+
+It's ideal for privacy-conscious individuals or home lab setups, and runs well on Raspberry Pi when optimized.
+
+## ✅ The Project Features
 
 - Runs only on local network
 - Uses PostgreSQL (not SQLite)
