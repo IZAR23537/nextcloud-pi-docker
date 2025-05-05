@@ -50,7 +50,7 @@ cd nextcloud-pi-docker
 docker-compose up -d
 ```
 
-Then visit [http://<your-pi-ip>:8080](http://<your-pi-ip>:8080) and complete Nextcloud setup.
+Then visit [http://<your-pi-ip>:8080] and complete Nextcloud setup.
 
 Use:
 - **Database user**: `nextcloud`
@@ -59,9 +59,3 @@ Use:
 - **Host**: `db`
 
 ---
-
-## 🗂️ File Structure
-
-- `/mnt/externaldrive/nextcloud/html` – app config
-- `/mnt/externaldrive/nextcloud/data` – user files
-- `/mnt/externaldrive/postgres/data` – PostgreSQL DB
